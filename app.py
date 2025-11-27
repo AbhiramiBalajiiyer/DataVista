@@ -375,7 +375,7 @@ if user_input:
             # show the NEW chart directly from returned path
             chart_path = result.get("path", "chart.png")
             if os.path.exists(chart_path):
-                st.image(chart_path, caption="Generated Chart", use_container_width=True)
+                st.image(chart_path, caption="Generated Chart")
         else:
             st.error(result if isinstance(result, str)
                      else result.get("error", "Chart error."))
