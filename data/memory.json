@@ -1,0 +1,14 @@
+{
+    "history": [
+        {
+            "timestamp": "2025-11-21T17:55:47.713898",
+            "user": "run eda",
+            "assistant": "{'value': {'count': 121.0, 'mean': 319.8264462809917, 'std': 95.21332869631493, 'min': 120.0, '25%': 245.0, '50%': 325.0, '75%': 400.0, 'max': 475.0}, 'orders': {'count': 121.0, 'mean': 39.553719008264466, 'std': 21.838784464503796, 'min': 6.0, '25%': 20.0, '50%': 38.0, '75%': 58.0, 'max': 78.0}}"
+        },
+        {
+            "timestamp": "2025-11-21T17:56:14.902949",
+            "user": "generate report",
+            "assistant": "Report saved as insightops_report.pptx"
+        }
+    ]
+}

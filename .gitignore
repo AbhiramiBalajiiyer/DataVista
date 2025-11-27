@@ -1,0 +1,5 @@
+# .gitignore
+assets/chart.png
+assets/insightops_report.pptx
+*.pptx
+*.png

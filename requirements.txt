@@ -1,0 +1,21 @@
+# use "pip install -r requirements.txt" to run the file
+openai
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+plotly
+python-pptx
+shap
+#auto-gluon
+xgboost
+lightgbm
+seaborn
+statsmodels
+pmdarima
+agent_engine
+pandas
+matplotlib
+pmdarima
+scikit-learn

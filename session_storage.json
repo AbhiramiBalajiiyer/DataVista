@@ -1,0 +1,216 @@
+{
+  "msg_1": {
+    "user": "eda",
+    "parsed": {
+      "intent": "run_eda",
+      "params": {},
+      "detail": "eda"
+    }
+  },
+  "msg_2": {
+    "user": "generate report",
+    "parsed": {
+      "intent": "generate_report",
+      "params": {},
+      "detail": "generate report"
+    }
+  },
+  "msg_3": {
+    "user": "generate report",
+    "parsed": {
+      "intent": "generate_report",
+      "params": {},
+      "detail": "generate report"
+    }
+  },
+  "msg_4": {
+    "user": "eda",
+    "parsed": {
+      "intent": "run_eda",
+      "params": {},
+      "detail": "eda"
+    }
+  },
+  "msg_5": {
+    "user": "plot chart",
+    "parsed": {
+      "intent": "generate_chart",
+      "params": {},
+      "detail": "plot chart"
+    }
+  },
+  "msg_6": {
+    "user": "generate chart",
+    "parsed": {
+      "intent": "generate_chart",
+      "params": {},
+      "detail": "generate chart"
+    }
+  },
+  "msg_7": {
+    "user": "generate histogram",
+    "parsed": {
+      "intent": "unknown",
+      "params": {},
+      "detail": "generate histogram"
+    }
+  },
+  "msg_8": {
+    "user": "generate line",
+    "parsed": {
+      "intent": "unknown",
+      "params": {},
+      "detail": "generate line"
+    }
+  },
+  "msg_9": {
+    "user": "generate line chart",
+    "parsed": {
+      "intent": "generate_chart",
+      "params": {
+        "chart_type": "line"
+      },
+      "detail": "generate line chart"
+    }
+  },
+  "msg_10": {
+    "user": "generate chart",
+    "parsed": {
+      "intent": "generate_chart",
+      "params": {},
+      "detail": "generate chart"
+    }
+  },
+  "msg_11": {
+    "user": "generate report",
+    "parsed": {
+      "intent": "generate_report",
+      "params": {},
+      "detail": "generate report"
+    }
+  },
+  "msg_12": {
+    "user": "generate chart",
+    "parsed": {
+      "intent": "generate_chart",
+      "params": {},
+      "detail": "generate chart"
+    }
+  },
+  "msg_13": {
+    "user": "run eda",
+    "parsed": {
+      "intent": "run_eda",
+      "params": {},
+      "detail": "run eda"
+    }
+  },
+  "msg_14": {
+    "user": "forecast 7 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 7
+      },
+      "detail": "forecast 7 days"
+    }
+  },
+  "msg_15": {
+    "user": "generate chart",
+    "parsed": {
+      "intent": "generate_chart",
+      "params": {},
+      "detail": "generate chart"
+    }
+  },
+  "msg_16": {
+    "user": "forecast 15 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 15
+      },
+      "detail": "forecast 15 days"
+    }
+  },
+  "msg_17": {
+    "user": "forecast 2 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 2
+      },
+      "detail": "forecast 2 days"
+    }
+  },
+  "msg_18": {
+    "user": "forecast 2 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 2
+      },
+      "detail": "forecast 2 days"
+    }
+  },
+  "msg_19": {
+    "user": "forecast 2 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 2
+      },
+      "detail": "forecast 2 days"
+    }
+  },
+  "msg_20": {
+    "user": "forecast 10 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 10
+      },
+      "detail": "forecast 10 days"
+    }
+  },
+  "msg_21": {
+    "user": "forecast 20 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 20
+      },
+      "detail": "forecast 20 days"
+    }
+  },
+  "msg_22": {
+    "user": "forecast 4 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 4
+      },
+      "detail": "forecast 4 days"
+    }
+  },
+  "msg_23": {
+    "user": "forecast 2 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 2
+      },
+      "detail": "forecast 2 days"
+    }
+  },
+  "msg_24": {
+    "user": "forecast 14 days",
+    "parsed": {
+      "intent": "forecast",
+      "params": {
+        "days": 14
+      },
+      "detail": "forecast 14 days"
+    }
+  }
+}
