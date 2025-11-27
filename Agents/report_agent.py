@@ -31,23 +31,32 @@ class ReportAgent:
             slide = prs.slides.add_slide(prs.slide_layouts[5])
             slide.shapes.title.text = "Generated Chart"
 
-            left = Inches(1)
-            top = Inches(1.8)
-            width = Inches(8)
+            # Get slide dimensions
+            slide_width = prs.slide_width
+            slide_height = prs.slide_height
 
-            slide.shapes.add_picture(chart_path, left, top, width=width)
+            # Margins
+            margin_h = Inches(0.5)
+            margin_top = Inches(1.5)
+
+            # Available area
+            pic_width = slide_width - 2 * margin_h
+            pic_height = slide_height - margin_top - margin_h
+
+            # Add picture filling available box
+            left = margin_h
+            top = margin_top
+            slide.shapes.add_picture(chart_path, left, top, width=pic_width, height=pic_height)
 
         # --- EDA Slide ---
         slide = prs.slides.add_slide(prs.slide_layouts[1])
         slide.shapes.title.text = "Exploratory Data Analysis"
-
         body = slide.placeholders[1].text_frame
         body.text = self.eda
 
         # --- Forecast Slide ---
         slide = prs.slides.add_slide(prs.slide_layouts[1])
         slide.shapes.title.text = "Forecast Summary"
-
         body = slide.placeholders[1].text_frame
         body.text = self.forecast
 
